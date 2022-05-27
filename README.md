@@ -1,5 +1,21 @@
 # Gerenciador de Projetos
- 11c
+
+## check list acompanhamento
+
+- [x] Criação do banco de dados
+- [x] Criação das classes de modelo
+- [x] Criação do vínculo entre tabelas
+- [x] Criação das classes de controle de acesso
+- [ ] Criação da interface gráfica
+  - [ ] Tela principal
+    - [ ] cellrederer Prazo
+    - [ ] cellRederer Editar e deletar
+  - [ ] Tela de cadastro de projeto
+  - [ ] Tela de cadastro de tarefa
+- [ ] Implementar eventos
+- [ ] validar eventos
+- [ ] Ajustes finais
+- [ ] Testes
 
 ...
 
@@ -62,14 +78,6 @@ chmod +x xampp-installer.run
 
 sudo ./xampp-installer.run
 
-// criar um atalho do programa
-echo -e '[Desktop Entry]\n Version=1.0\n Name=xampp\n Exec=gksudo /opt/lampp/manager-linux-x64.run\n Icon=/opt/lampp/icons/world1.png\n Type=Application\n Categories=Application' | sudo tee /usr/share/applications/xampp.desktop
-
-sudo apt-get install gksu
-proje
-sudo chmod +x /usr/share/applications/xampp.desktop
-cp /usr/share/applications/xampp.desktop ~/Desktop
-
 //executar no terminal
 sudo /opt/lampp/lampp start
 
@@ -113,19 +121,4 @@ Aplicativos de protoripagem
 Paletas de cores
 Icones
 
-## check list
 
-- [ ] Criação do banco de dados
-- [ ] Criação das classes de modelo
-- [ ] Criação do vínculo entre tabelas
-- [ ] Criação das classes de controle de acesso
-- [ ] Criação da interface gráfica
-  - [ ] Tela principal
-    - [ ] cellrederer Prazo
-    - [ ] cellRederer Editar e deletar
-  - [ ] Tela de cadastro de projeto
-  - [ ] Tela de cadastro de tarefa
-- [ ] Implementar eventos
-- [ ] validar eventos
-- [ ] Ajustes finais
-- [ ] Testes
