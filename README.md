@@ -1,6 +1,6 @@
 # Gerenciador de Projetos
 
-## check list acompanhamento
+## Andamento das etapas do desenvolvimento
 
 - [x] Criação do banco de dados
 - [x] Criação das classes de modelo
